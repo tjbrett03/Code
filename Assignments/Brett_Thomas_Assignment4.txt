@@ -1,0 +1,12 @@
+Enter Number:1
+Enter Number:2
+Enter Number:3
+Enter Number:4
+Enter Number:5
+Enter Number:6
+Enter Number:badinput
+invalid input, try again!
+
+Enter Number:done
+done
+max:  6.0 min: 1.0
