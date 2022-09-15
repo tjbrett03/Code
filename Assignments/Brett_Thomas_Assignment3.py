@@ -1,5 +1,5 @@
 print("How To Dress")
-temp = int(input("Current Outside Temperature: "))  # ask user to input current temperature 
+temp = int(input("Current Outside Temperature (in Farenheit): "))  # ask user to input current temperature 
 if temp >= 80:                                      # if & elif statements run to check temp, displays proper response for what to wear
     print("Wear shorts and a t-shirt")
 elif temp >=70 and temp < 80:                       # and statements catch low end of temp range for any given response
