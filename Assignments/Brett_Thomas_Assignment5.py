@@ -6,8 +6,11 @@ def phone_function(userinput): # define function with argument
         area_code = "(" + "".join(numlist[0:3]) + ") " # create variable area code and assign it value
         middle = "".join(numlist[3:6]) + "-" # middle of phone number
         end = "".join(numlist[6:10]) # end of phone number 
-        phone_number = area_code + middle + end # put all three parts together
-    print(phone_number) # print outside of for loop so that phone number only prints once and when completed
+        phone_number = area_code + middle + end # put all three parts together]
+    if len(numlist) == 10: 
+        print(phone_number) # print outside of for loop so that phone number only prints once and when completed
+    else:
+        phone_function(int(input("enter a valid 10 digit phone number!: ")))
 try: # try block to catch non number input
     phone_function(int(input("enter phone number: ")))
 except ValueError: # print 'value error!' if userinput is not an integer
