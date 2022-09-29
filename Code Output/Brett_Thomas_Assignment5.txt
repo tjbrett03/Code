@@ -1,0 +1,5 @@
+enter phone number: 6125030239
+(612) 503-0239
+PS C:\Users\tjbre\OneDrive\Documents\CYB 267268 Intro To Programming\Code> & C:/Users/tjbre/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/tjbre/OneDrive/Documents/CYB 267268 Intro To Programming/Code/Assignments/Brett_Thomas_Assignment5.py"
+enter phone number: 9525002995
+(952) 500-2995

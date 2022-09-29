@@ -23,4 +23,3 @@ while x != ValueError:
             temp = str(input("\nEnter Number:"))
             x = None                    # keep while loop conditon true, only affects anything if the try block fails, and the if statement returns false
                                         # runs the while loop until this condition is false
-
